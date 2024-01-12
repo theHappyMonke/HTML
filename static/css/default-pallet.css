@@ -24,3 +24,7 @@ button:hover {
 div {
     text-align: center;
 }
+
+hr {
+    border: 3px solid #1D00D8;
+}
