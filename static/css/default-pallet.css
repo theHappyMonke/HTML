@@ -1,7 +1,7 @@
 body {
     font-family:"Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
     color: #1D00D8;
-    background: linear-gradient(109.6deg, #FFC230 11.2%, #FF7C00 100.2%);
+    background: linear-gradient(90deg, #FFC230 11.2%, #FF7C00 100.2%);
 }
 
 h1 {
@@ -9,7 +9,6 @@ h1 {
 }
 
 button {
-    margin: center;
     min-width: 75px;
     max-width: 150px;
     height: 25px;
