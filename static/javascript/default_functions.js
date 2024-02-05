@@ -5,24 +5,20 @@ const num2 = 3;
 const sum = num1 + num2;
 console.log(sum);
 
-count = 0;
-
 // while loop
-while (true) {
-    console.log("Hello, world!");
-    count++;
-    if (count === 5) {
-        break;
-    }
+let i = 0;
+while (i <= 5) {
+    console.log(i);
+    i++;
 }
 
 // for loop
-for (let i = 0; i < 5; i++) {
-    console.log("Goodbye, world!");
+for (let i = 5; i >= 0; i--) {
+    console.log(i);
 }
 
 // if-else statement - not working
-//let age = input("Enter your age: ");
+//const age = document.getElementById("age").value;
 //if (age >= 18) {
 //    console.log("You are an adult.");
 //} else {
