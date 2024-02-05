@@ -18,7 +18,7 @@ while (true) {
 
 // for loop
 for (let i = 0; i < 5; i++) {
-    console.log("Hello, world!");
+    console.log("Goodbye, world!");
 }
 
 // if-else statement - not working
