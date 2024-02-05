@@ -21,10 +21,10 @@ for (let i = 0; i < 5; i++) {
     console.log("Hello, world!");
 }
 
-// if-else statement
-let age = input("Enter your age: ");
-if (age >= 18) {
-    console.log("You are an adult.");
-} else {
-    console.log("You are a child.");
-}
+// if-else statement - not working
+//let age = input("Enter your age: ");
+//if (age >= 18) {
+//    console.log("You are an adult.");
+//} else {
+//    console.log("You are a child.");
+//}
