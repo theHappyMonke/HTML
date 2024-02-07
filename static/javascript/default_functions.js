@@ -1,15 +1,26 @@
 // I do not know how to use javascript.
+// I am just trying to learn it.
 const num1 = 5;
 const num2 = 3;
 const sum = num1 + num2;
 console.log(sum);
 
-count = 0;
-
-while (true) {
-    console.log("Hello, world!");
-    count = count + 1;
-    if (count === 5) {
-        break;
-    }
+// while loop
+let i = 0;
+while (i <= 5) {
+    console.log(i);
+    i++;
 }
+
+// for loop
+for (let i = 5; i >= 0; i--) {
+    console.log(i);
+}
+
+// if-else statement - not working
+//const age = document.getElementById("age").value;
+//if (age >= 18) {
+//    console.log("You are an adult.");
+//} else {
+//    console.log("You are a child.");
+//}
