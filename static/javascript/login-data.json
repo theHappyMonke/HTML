@@ -1,0 +1,17 @@
+{
+    "login":
+    [
+        {
+            "id": "000",
+            "username": "admin",
+            "password": "admin",
+            "email": "admin.email.com"
+        },
+        {
+            "id": "001",
+            "username": "user",
+            "password": "user",
+            "email": "user.email.com"
+        }
+    ]
+}
