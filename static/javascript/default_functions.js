@@ -6,15 +6,19 @@ const sum = num1 + num2;
 console.log(sum);
 
 // while loop
-let i = 0;
-while (i <= 5) {
-    console.log(i);
-    i++;
+whileLoop = () => {
+    let i = 0;
+    while (i <= 5) {
+        console.log(i);
+        i++;
+    }
 }
 
 // for loop
-for (let i = 5; i >= 0; i--) {
-    console.log(i);
+forLoop = () => {
+    for (let i = 5; i >= 0; i--) {
+        console.log(i);
+    }
 }
 
 // if-else statement - not working
