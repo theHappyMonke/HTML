@@ -4,11 +4,7 @@ body {
     background: linear-gradient(90deg, #FFC230 11.2%, #FF7C00 100.2%);
 }
 
-h1 {
-    text-align: center
-}
-
-button {
+button.nav {
     min-width: 75px;
     max-width: 150px;
     height: 25px;
@@ -18,13 +14,13 @@ button {
     color: #1D00D8;
 }
 
-button:hover {
-    border-color: #0000AA;
+button.nav:hover {
+    border-color: #00A;
     background-color: #FFC230;
-    color: #0000AA;
+    color: #00A;
 }
 
-div {
+div.nav, .centered {
     text-align: center;
 }
 
