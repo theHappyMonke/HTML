@@ -7,18 +7,31 @@
     </head>
 
     <body>
-    <div class = "nav">
+        <p id = "navbar">Closed</p>
+        <button type = "button" onclick="navToggle()" id = "nav">Open Nav</button>
+        
+        <!--This defines some Javascript that changes a paragraph between two states.-->
+        <script>
+            function navToggle() {
+                const x = document.getElementById("navbar");
+                if (x.innerHTML === "Closed") {
+                    x.innerHTML = "Open";
+                } else {
+                    x.innerHTML = "Closed";
+                }
+            }
+        </script>
+
         <a href="/"><button class = "nav">Home</button></a>
         <a href="/about"><button class = "nav">About</button></a>
         <a href="/page1"><button class = "nav">Page 1</button></a>
         <a href="/page2"><button class = "nav">Page 2</button></a>
         <a href="/contact"><button class = "nav">Contact</button></a>
         <h1>{{ page }}</h1>
-    </div>
 
     {% block content %}
     {% endblock %}
-
+    </body>
     <footer>
         <hr>
         <p>Information for the footer</p>
@@ -26,5 +39,4 @@
         {% endblock %}
 
     </footer>
-    </body>
 </html>
