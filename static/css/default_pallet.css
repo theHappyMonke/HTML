@@ -5,12 +5,11 @@ body {
 }
 
 button.nav {
-    min-width: 80px;
-    max-width: 150px;
-    height: 40px; 
-    border-width: 3px 0;
+    width: 80px;
+    height: 40px;
+    border-width: 0 0 3px;
     border-color: #1D00D8;
-    border-style: double;
+    border-style: dotted;
     background-color: #ffffff00;
     color: #1D00D8;
 }
@@ -18,25 +17,24 @@ button.nav {
 button.nav:hover {
     border-color: #00A;
     background-color: #ffffff30;
-    border-width: 5px 0;
+    border-width: 0 0 5px;
     color: #00A;
 }
 
 /*This is for the navigation bar.
-Currently called navquip because it can't be nav
-because that is confusing.*/
-button#navquip {
-    width: 60px;
-    height: 40px;
+Currently called index because it is used to open the index.*/
+button#index {
+    min-width: 40px;
+    max-width: 80px;
+    min-height: 40px;
+    max-height: 80px;
     border-width: 4px 0;
-    border-color: #1D00D8;
-    border-style: solid;
+    border-style: none;
     background-color: #ffffff00;
     color: #1D00D8;
 }
 
-button#navquip:hover {
-    border-color: #00A;
+button#index:hover {
     background-color: #ffffff30;
     color: #00A;
 }

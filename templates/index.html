@@ -7,12 +7,12 @@
     </head>
 
     <body>
-        <button type = "button" onclick = "navToggle()" id = "navquip">Closed</button>
+        <button type = "button" onclick = "navToggle()" id = "index"><img src = "/static/images/index.png" alt = "index"></button>
         
         <!--This defines some Javascript that changes a paragraph between two states.-->
         <script>
             function navToggle() {
-                const x = document.getElementById("navquip");
+                const x = document.getElementById("index");
                 if (x.innerHTML === "Closed") {
                     x.innerHTML = "Open";
                 } else {
