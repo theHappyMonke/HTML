@@ -1,7 +1,7 @@
 body {
     font-family:"Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
     color: #1D00D8;
-    background: linear-gradient(90deg, #FFC230 11.2%, rgb(255, 124, 0) 100.2%);
+    background: linear-gradient(90deg, #FFC230 11.2%, #ff7c00 100.2%);
 }
 
 button.nav {
@@ -11,33 +11,42 @@ button.nav {
     border-width: 3px 0;
     border-color: #1D00D8;
     border-style: double;
-    background-color: #ff7c0000;
+    background-color: #ffffff00;
     color: #1D00D8;
 }
 
 button.nav:hover {
     border-color: #00A;
-    background-color: #ff7c0033;
+    background-color: #ffffff30;
     border-width: 5px 0;
     color: #00A;
 }
 
-button#nav {
+/*This is for the navigation bar.
+Currently called navquip because it can't be nav
+because that is confusing.*/
+button#navquip {
+    width: 60px;
+    height: 40px;
     border-width: 4px 0;
-    border-color: #00A;
+    border-color: #1D00D8;
     border-style: solid;
-    background-color: #ff7c0000;
+    background-color: #ffffff00;
+    color: #1D00D8;
+}
+
+button#navquip:hover {
+    border-color: #00A;
+    background-color: #ffffff30;
     color: #00A;
 }
 
-button#nav:hover {
-    background-color: #ff7c0033;
-}
-
+/*This is a class used to center any text or images.*/
 .centered {
     text-align: center;
 }
 
-hr {
+/*This is used to control the thickness of the footer dividing line.*/
+hr#footerline {
     border: 3px solid #1D00D8;
 }

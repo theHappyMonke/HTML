@@ -7,13 +7,12 @@
     </head>
 
     <body>
-        <p id = "navbar">Closed</p>
-        <button type = "button" onclick="navToggle()" id = "nav">Open Nav</button>
+        <button type = "button" onclick = "navToggle()" id = "navquip">Closed</button>
         
         <!--This defines some Javascript that changes a paragraph between two states.-->
         <script>
             function navToggle() {
-                const x = document.getElementById("navbar");
+                const x = document.getElementById("navquip");
                 if (x.innerHTML === "Closed") {
                     x.innerHTML = "Open";
                 } else {
@@ -33,7 +32,7 @@
     {% endblock %}
     </body>
     <footer>
-        <hr>
+        <hr id = "footerline">
         <p>Information for the footer</p>
         {% block foots %}
         {% endblock %}
