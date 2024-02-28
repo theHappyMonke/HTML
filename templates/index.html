@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html>
     <head>
+<!--This is used to define the content of each page. This line controls the head block.-->
         <title>{% block title %}{% endblock %}</title>
         <link rel="stylesheet" href="/static/css/default_pallet.css">
         <script src="default_functions.js"></script>
     </head>
 
     <body>
-        <button type = "button" onclick = "navToggle()" id = "index"><img src = "/static/images/index.png" alt = "index"></button>
+        <button type = "button" onclick = "navToggle()" class = "index"><img src = "/static/images/index.png" alt = "index"></button>
         
+        <p id = "index"></p>
         <!--This defines some Javascript that changes a paragraph between two states.-->
         <script>
             function navToggle() {
@@ -21,19 +23,25 @@
             }
         </script>
 
+<!--This is for the navigation, it links to the seperate websites.-->
         <a href="/"><button class = "nav">Home</button></a>
         <a href="/about"><button class = "nav">About</button></a>
         <a href="/page1"><button class = "nav">Page 1</button></a>
         <a href="/page2"><button class = "nav">Page 2</button></a>
         <a href="/contact"><button class = "nav">Contact</button></a>
+
+<!--This is used to give a title on each page depending on the page variable defined on each html file.-->
         <h1>{{ page }}</h1>
 
+<!--This is used to define the content of each page. This line controls the body block.-->
     {% block content %}
     {% endblock %}
     </body>
     <footer>
         <hr id = "footerline">
         <p>Information for the footer</p>
+
+<!--This is used to define the content of each page. This line controls the footer block.-->
         {% block foots %}
         {% endblock %}
 

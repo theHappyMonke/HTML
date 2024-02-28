@@ -1,19 +1,22 @@
+/*This defines the default look of all the text in the website along with the background.*/
 body {
     font-family:"Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
     color: #1D00D8;
     background: linear-gradient(90deg, #FFC230 11.2%, #ff7c00 100.2%);
 }
 
+/*This is a class only for buttons and I have defined it to change the look of buttons under the "nav" class.*/
 button.nav {
     width: 80px;
     height: 40px;
     border-width: 0 0 3px;
     border-color: #1D00D8;
-    border-style: dotted;
+    border-style: solid;
     background-color: #ffffff00;
-    color: #1D00D8;
 }
 
+/*This changes the buttons colours depending on an action the user makes.
+In this instance, it executes when a user hovers over the button*/
 button.nav:hover {
     border-color: #00A;
     background-color: #ffffff30;
@@ -21,20 +24,20 @@ button.nav:hover {
     color: #00A;
 }
 
-/*This is for the navigation bar.
-Currently called index because it is used to open the index.*/
-button#index {
+/*This is for the navigation bar, the id is called index because it is used to open the index.*/
+button.index {
     min-width: 40px;
     max-width: 80px;
     min-height: 40px;
     max-height: 80px;
-    border-width: 4px 0;
     border-style: none;
     background-color: #ffffff00;
     color: #1D00D8;
 }
 
-button#index:hover {
+/*This changes the buttons colours depending on an action the user makes.
+In this instance, it executes when a user hovers over the button*/
+button.index:hover {
     background-color: #ffffff30;
     color: #00A;
 }

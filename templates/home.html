@@ -1,9 +1,14 @@
+<!--Asigns the page variable with the page title. This page is set with "Home"-->
 {% set page = "Home" %}
+
+<!--This connect all of the Jinja code to a link like how you would link css or javascript.-->
 {% extends "index.html" %}
+
+<!--Makes the title the websites own title. This title is "Home"-->
 {% block title %}Home{% endblock %}
 {% block content %}
 
-<!--This contains pages dependent information-->
+<!--This contains pages dependent information.-->
 <p>This is the information for the home page.</p>
 
 {% endblock %}
