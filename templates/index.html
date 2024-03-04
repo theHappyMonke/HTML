@@ -4,25 +4,15 @@
 <!--This is used to define the content of each page. This line controls the head block.-->
         <title>{% block title %}{% endblock %}</title>
         <link rel="stylesheet" href="/static/css/default_pallet.css">
-        <script src="default_functions.js"></script>
+        <script src="/static/javascript/default_functions.js"></script>
     </head>
 
     <body>
         <button type = "button" onclick = "navToggle()" class = "index"><img src = "/static/images/index.png" alt = "index"></button>
         
         <p id = "index"></p>
-        <!--This defines some Javascript that changes a paragraph between two states.-->
-        <script>
-            function navToggle() {
-                const x = document.getElementById("index");
-                if (x.innerHTML === "Closed") {
-                    x.innerHTML = "Open";
-                } else {
-                    x.innerHTML = "Closed";
-                }
-            }
-        </script>
 
+        
 <!--This is for the navigation, it links to the seperate websites.-->
         <a href="/"><button class = "nav">Home</button></a>
         <a href="/about"><button class = "nav">About</button></a>

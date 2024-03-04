@@ -1,5 +1,5 @@
 function navToggle() {
-    const x = document.getElementById("navbar");
+    const x = document.getElementById("index");
     if (x.innerHTML === "Closed") {
         x.innerHTML = "Open";
     } else {

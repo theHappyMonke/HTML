@@ -1,0 +1,15 @@
+1. Add a database to store data after project completion.
+
+2. Learn how to store data in database from users.
+
+3. Use lorem ipsum generator at "dummytxtgenerator.com".
+
+4. Make a contact enquiry form.
+
+5. Fiddle with padding and margins.
+
+6. Learn style lists.
+
+7. Use W3Schools for navbar.
+
+8. Use overflow:content.

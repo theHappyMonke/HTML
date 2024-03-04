@@ -9,6 +9,8 @@ body {
 button.nav {
     width: 80px;
     height: 40px;
+    padding: 0;
+    margin: 5px, 0;
     border-width: 0 0 3px;
     border-color: #1D00D8;
     border-style: solid;
@@ -30,6 +32,7 @@ button.index {
     max-width: 80px;
     min-height: 40px;
     max-height: 80px;
+    padding: 2px;
     border-style: none;
     background-color: #ffffff00;
     color: #1D00D8;
@@ -38,7 +41,7 @@ button.index {
 /*This changes the buttons colours depending on an action the user makes.
 In this instance, it executes when a user hovers over the button*/
 button.index:hover {
-    background-color: #ffffff30;
+    background-color: #ff0000;
     color: #00A;
 }
 
